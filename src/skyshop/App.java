@@ -30,8 +30,11 @@ class App {
         System.out.println(basket.searchProduct("Мороженое"));
 
         basket.clearBasket();
+
         basket.printContent();
+
         System.out.println(basket.calculateAmount());
+
         System.out.println(basket.searchProduct("Молоко"));
     }
 }
